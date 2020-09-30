@@ -1,288 +1,42 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Google</title>
-<style>
-a {
-	font-family: arial, sans-serif;
-}
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<title>Google</title>
+	</head>
+	<body>
+		<div class="header">
+			<ul>
+				<li><a href="abouturl" class="header">About</a></li>
+				<li><a href="storeurl" class="header">Store</a></li>
 
-text {
-	font-family: arial, sans-serif;
-}
-
-p {
-	font-family: srial, sans-serif;
-	font-size: small;
-	margin: auto;
-}
-
-div.header {
-position: absolute;
-top: 0;
-width: 100%;
-min-height: 100%;
-margin: 0 auto;
-min-width: 400px;
-}
-
-div.headertop {
-	top: 16px;
-	position: relative;
-	font-size: 13px;
-	color: #222;
-	font-family: arial,san-serif;
-}
-
-div.headerlinks {
-	position: absolute;
-	margin: 7px 0 0 10px;
-}
-
-a#header {
-	display: inline-block;
-	padding-left: 15px;
-	color: #000;
-	opacity: 0.75;
-	text-decoration: none;
-}
-
-a#signin {
-	color: #fff;
-	cursor: default;
-	text-decoration: none;
-	border: 1px solid #4285f4;
-	font-weight: bold;
-	outline: none;
-	background: -moz-linear-gradient(top,#4387fd,#4683ea);
-	display: inline-block;
-	line-height: 28px;
-	padding: 0 12px;
-	border-radius: 2px;
-}
-
-a#gridimage {
-	color: #000;
-	cursor: pointer;
-	text-decoration: none;
-	background-position: -132px -38px;
-	opacity: .55;
-	background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png')
-	background-size: 528px 68px;
-	display: inline-block;
-	outline: none-
-	vertical-align: middle;
-	border-radius: 2px;
-	box-sizing: border-box;
-	height: 30px;
-	width: 30px;
-}
-
-div.header3 {
-	min-width: 220px;
-	z-index: 987;
-	display: flex;
-	float: right;
-	padding-left: 30px;
-	padding-right: 30px;
-	position: relative;
-	text-align: right;
-	align-items: center;
-	justify-content: flex-end;
-	-moz-user-select: -moz-none;
-	margin-left: 0 !important;
-	margin-right: 0 !important;
-	white-space: nowrap;
-}
-
-div.body {
-	padding-top: 30%;
-}
-
-img {
-padding-top: 10px !important;
-height: 72px;
-width: auto;
-}
-
-form {
-	overflow: visible;
-	max-width: none;
-width: auto;
-margin: 0 32px;
-background: none;
-}
-
-div.search1 {
-	background: #fff;
-	display: flex;
-	border: 1px solid #dfe1e5;
-	box-shadow: none;
-	border-radius: 24px;
-	height: 44px;
-	margin: 0 auto;
-	width: auto;
-}
-
-div.search2 {
-	flex: 1;
-	display: flex;
-	padding: 5px 8px 0 16px;
-	padding-left: 14px;
-}
-
-div.search3 {
-	display: flex;
-	flex: 1;
-	flex-wrap: wrap;
-}
-
-input.search {
-	background-color: transparent;
-	border: none;
-	margin: 0;
-	padding: 0;
-	color: rgba(0,0,0,.87);
-	word-wrap: break-word;
-	outline: none;
-	display: flex;
-	flex: 100%;
-	font-size: 16px;
-	font: 16px arial,sans-serif;
-	line-height: 34px;
-	height: 34px !important;
-}
-
-input[type="submit"] {
-	background-color: #f2f2f2;
-	border: 1px solid #f2f2f2;
-	border-radius: 4px;
-	color: #5F6368;
-	font-family: arial, sans-serif;
-	font-size: 14px;
-	margin: 11px 4px;
-	padding: 0 16px;
-	line-height: 27px;
-	height: 36px;
-	min-width: 54px;
-	text-align: center;
-	cursor: pointer;
-	user-select: none;
-}
-
-a#footer {
-display: inline-block;
-color: #5f6368;
-text-decoration: none;
-white-space: nowrap;
-padding-left: 27px;
-margin: 0 !important;
-text-align: center;
-font-size: 14px;
-line-height: 40px;
-	}
-	
-div.footer1 {
-	bottom: 0;
-	left: 0;
-	position: absolute;
-	right: 0;
-}
-
-div.footer2 {
-	background: #f2f2f2;
-	border-top: 1px solid #e4e4e4;
-	line-height: 40px;
-	min-width: 400px;
-}
-
-div.footer3 {
-	text-align: center;
-	font-size: 14px;
-	margin-left: -27px;
-	line-height: 40px;
-	color: #222;
-	font-family: arial,sans-serif;
-}
-
-span.footerspan {
-	display: block;
-	margin: 0;
-	float: none;
-	text-align: center;
-	font-size: 14px;
-	line-height: 40px;
-}
-
-</style>
-</head>
-
-<header>
-<div class="header">
-	<div class="headertop">
-		<div class="headerlinks">
-			<div class="header3">
-
-<a href="" id="header">About</a>
-<a href="" id="header">Store</a>
-
-<a href="" id="header">Gmail</a>
-<a href="" id="header">Images</a>
-<a href="" id="gridimage"></a>
-<a href="" id="signin">Sign in</a>
-</div>
-</div>
-</div>
-</div>
-</header>
-
-<body>
-	<div class="body">
-	<div class="image" align="center">
-<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-	</div></div>
-<br>
-
-<form name="search">
-
-
-<div class="search1">
-<div class="search2">
-	<div class="search3">
-	<input class="search" type="search">
-
-<label for="search"></label>
-
-</div></div></div>
-
-<br>
-<div class="buttons" align="center">
-<input type="submit" value="Google Search">
-<input type="submit" value="I'm Feeling Lucky">
-</div>
-</form>
-
-</div>
-<br>
-<p align="center">Fuck Google - Ask me!</p>
-
-</body>
-
-<footer>
-<div class="footer1">
-	<div class="footer2">		
-		<div class="footer3">
-			<span class="footerspan">
-<a href="" id="footer">Advertising</a>
-<a href="" id="footer">Business</a>
-<a href="" id="footer">How Search works</a>
-<a href="" id="footer">Privacy</a>
-<a href="" id="footer">Terms</a>
-<a href="" id="footer">Settings</a>
-		</span>
-</div>
-</div>
-</div>
-</footer>
-
+				<li id="signin" style="float:right"><a href="signinurl" id="signin">Sign in</a></li>
+				<li style="float:right"><a href="appsurl" class="header"><img src="appslogourl" alt="Google apps"></a></li>
+				<li style="float:right"><a href="imagesurl" class="header">Images</a></li>
+				<li style="float:right"><a href="gmailurl" class="header">Gmail</a></li>
+			</ul>
+			
+		</div>
+		<div class="main" align="center">
+			<img src="googlelogo.png" alt="Google logo">
+			<form class="searchbar">
+				<input type="text">
+				<br>
+				<input type="submit" value="Google Search">
+				<input type="submit" value="I'm Feeling Lucky">
+			</form>
+			<p>blurb</p>
+		</div>
+		<div class="footer">
+			<ul>
+				<li><a href="privacyurl" class="footer">Privacy</a></li>
+				<li><a href="termsurl" class="footer">Terms</a></li>
+				<li><a href="settingsurl" class="footer">Settings</a></li>
+				<li><a href="advertisingurl" class="footer">Advertising</a></li>
+				<li><a href="businessurl" class="footer">Business</a></li>
+				<li><a href="howsearchworksurl" class="footer">How Search works</a></li>
+			</ul>
+			
+		</div>
+	</body>
 </html>
